@@ -1,0 +1,66 @@
+/* small device */
+.img-holder
+{
+    background-image: url('/assest/cat1.png');
+    background-repeat: no-repeat;
+width: 600px;
+height:500px;
+position: absolute;
+left: 90%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+.conetent-holder p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+left:50%;
+top:70%;
+transform: translate(-50%, -50%);
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .img-holder{
+        background-image: url('/assest/cat2.png');
+    background-repeat: no-repeat;
+    left: 80%;
+    }
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .img-holder{
+        background-image: url('/assest/cat4.png');
+    background-repeat: no-repeat;
+    left:70%;
+    top:60%
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img-holder{
+        background-image: url('/assest/cat3.png');
+    background-repeat: no-repeat;
+    left:60%;
+    top:70%
+   
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px*/
+@media only screen and (min-width: 1200px){
+    .img-holder{
+        background-image: url('/assest/cat5.png');
+    background-repeat: no-repeat;
+    left:50%;
+    }
+    .conetent-holder p{
+        left:40%;
+    }
+}
